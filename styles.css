@@ -1,0 +1,75 @@
+main .banner {
+    padding: 50px 0;
+    border-bottom: 1px solid brown;
+    color: blueviolet;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+
+main .banner {
+    padding: 50px 0;
+    border-bottom: 1px solid brown;
+    color: blueviolet;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .banner .hero-img {
+    max-width: 100%;
+    height: auto;
+}
+
+main .banner .hero-texts {
+    width: 100%;
+    max-width: 500px;
+}
+
+.hero-texts h1 {
+    font-size: 2rem;
+}
+
+.hero-texts p {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 10px 15px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover {
+    color: blueviolet;
+    background-color: transparent;
+}
+
+.hero-texts button {
+    align-self: flex-start;
+}
+
+table th td {
+    background-color: purple;
+
+}
+
+.odd {
+    background-color: purple;
+}
+
+h1 {
+    justify-content: center;
+}
+
+.about-banner {
+    display: flex;
+}
+
